@@ -1,0 +1,121 @@
+.gpt3__footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.gpt3__footer-heading {
+  flex: 0.75;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.gpt3__footer-heading h1 {
+  font-size: 62px;
+  font-family: var(--font-family);
+  font-weight: 800;
+  line-height: 75px;
+  margin-bottom: 3rem;
+}
+
+.gpt3__footer-heading button {
+  color: white;
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  background: #031b34;
+  padding: 1rem;
+  border-color: white;
+  cursor: pointer;
+}
+.gpt3__footer-heading button:hover {
+  background: lightslategray;
+  color: black;
+}
+
+.gpt3__footer-end {
+  margin: 10rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.gpt3__footer-end_heading img {
+  margin-bottom: 1rem;
+}
+
+.gpt3__footer-end_heading p {
+  font-size: 12px;
+  font-family: Gilroy-Medium;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.gpt3__footer-end_links h4,
+.gpt3__footer-end_company h4,
+.gpt3__footer-end_git h4 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-family);
+  margin-bottom: 1rem;
+}
+
+.gpt3__footer-end_links p,
+.gpt3__footer-end_company p,
+.gpt3__footer-end_git p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.gpt3__footer-end_git p {
+  cursor: text;
+}
+
+.gpt3__footer-license {
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+}
+
+.gpt3__footer-license p {
+  font-size: 12;
+  font-family: "Gilroy-Medium";
+  font-weight: "400";
+  word-wrap: "break-word";
+}
+
+@media screen and (max-width: 600px) {
+  .gpt3__footer-heading h1 {
+    font-size: 42px;
+    line-height: 55px;
+  }
+
+  .gpt3__footer-end_heading img {
+    margin-left: 4rem;
+  }
+  .gpt3__footer-end_heading p {
+    margin-left: 2rem;
+  }
+  .gpt3__footer-end {
+    flex-direction: column;
+  }
+  .gpt3__footer-end_links h4,
+  .gpt3__footer-end_company h4,
+  .gpt3__footer-end_git h4 {
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .gpt3__footer-end_links p,
+  .gpt3__footer-end_company p,
+  .gpt3__footer-end_git p {
+    margin-left: 4rem;
+  }
+}
